@@ -2,9 +2,11 @@ import * as Styled from "./styles";
 
 const Footer = () => {
   return (
-    <div>
-      <div></div>
-    </div>
+    <footer>
+      <p>Todos os direitos reservados &copy; Thulio Paiva</p>
+      <img src="" alt="Github" />
+      <img src="" alt="LinkedIn" />
+    </footer>
   );
 };
 

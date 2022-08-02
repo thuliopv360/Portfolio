@@ -1,6 +1,6 @@
 import * as Styled from "./styles";
 
-const Table = () => {
+const About = () => {
   return (
     <div>
       <div></div>
@@ -8,4 +8,4 @@ const Table = () => {
   );
 };
 
-export default Table;
+export default About;
