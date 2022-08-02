@@ -8,7 +8,7 @@ export const HeaderNavigationContainer = styled.nav`
   height: 100%;
   display: flex;
   justify-content: center;
-  width: 70%;
+  width: 90vw;
   margin: 3.4rem 0 3.4rem 5rem;
 
   a {
