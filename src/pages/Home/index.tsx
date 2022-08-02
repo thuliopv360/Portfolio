@@ -21,21 +21,12 @@ import * as Styled from "./styles";
 const Home = () => {
   return (
     <div>
-      <header>
-        <nav>
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#contact">Contact</a>
-          <a href="/projects">Projects</a>
-        </nav>
-      </header>
       <main>
         <h1>Desenvolvedor Full-Stack</h1>
         <h2>Eu codifico coisas Lindamente simples e amo oque faço</h2>
       </main>
       <section>
-        <p>
+        <p id="about">
           Oi, eu sou Thulio Paiva e tenho 26 anos. Prazer em conhecê-los. <br />
           Tenho capacidade de lidar sob pressao com precisao. <br />
           Sempre a procura de novos conhecimentos. <br />
@@ -44,43 +35,42 @@ const Home = () => {
         </p>
       </section>
       <div>
-        <table>
+        <table id="skills">
           <thead>
-            <th>
-              <tr>Front-end</tr>
-            </th>
-            <th>
-              <tr>Back-end</tr>
-            </th>
-            <th>
-              <tr>Database</tr>
-            </th>
+            <tr>
+              <th>Front-end</th>
+            </tr>
+            <tr>
+              <th>Back-end</th>
+            </tr>
+            <tr>
+              <th>Database</th>
+            </tr>
           </thead>
           <tbody>
-            <td>
-              <tr>Html</tr>
-              <tr>css</tr>
-              <tr>Javascript</tr>
-              <tr>React</tr>
-              <tr>Styled Componet</tr>
-              <tr>Typescript</tr>
-            </td>
-            <td>
-              <tr>Node</tr>
-              <tr>Typescript</tr>
-              <tr>Nest</tr>
-              <tr>Python</tr>
-              <tr>Express</tr>
-            </td>
-            <td>
-              <tr>Mongo DB</tr>
-              <tr>Prisma</tr>
-              <tr>Postgress</tr>
-            </td>
+            <tr>
+              <td>Html</td>
+              <td>css</td>
+              <td>Javascript</td>
+              <td>React</td>
+              <td>Styled Componet</td>
+              <td>Typescript</td>
+            </tr>
+            <tr>
+              <td>Node</td>
+              <td>Typescript</td>
+              <td>Nest</td>
+              <td>Python</td>
+              <td>Express</td>
+            </tr>
+            <tr>
+              <td>Mongo DB</td>
+              <td>Postgress</td>
+            </tr>
           </tbody>
         </table>
       </div>
-      <section>
+      <section id="contact">
         <p>
           Rua Maria Lucia Pinto, Centro, Dona Euzébia, 36784-000
           <a href="tel:+55(32)99960-1690">(32)999601690</a>

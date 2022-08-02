@@ -2,22 +2,15 @@ import * as Styled from "./styles";
 
 const Header = () => {
   return (
-    <div>
-      <Styled.HeaderContainer>
-        <Styled.HeaderLink href="/">
-          <Styled.HeaderList>Home</Styled.HeaderList>
-        </Styled.HeaderLink>
-        <Styled.HeaderLink href="/projects">
-          <Styled.HeaderList>Projects</Styled.HeaderList>
-        </Styled.HeaderLink>
-        <Styled.HeaderLink href="#about">
-          <Styled.HeaderList>About</Styled.HeaderList>
-        </Styled.HeaderLink>
-        <Styled.HeaderLink href="#skills">
-          <Styled.HeaderList>Skills</Styled.HeaderList>
-        </Styled.HeaderLink>
-      </Styled.HeaderContainer>
-    </div>
+    <Styled.HeaderContainer>
+      <Styled.HeaderNavigationContainer>
+        <a href="/">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a href="/projects">Projects</a>
+      </Styled.HeaderNavigationContainer>
+    </Styled.HeaderContainer>
   );
 };
 
